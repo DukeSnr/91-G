@@ -1,0 +1,115 @@
+*{
+    background-color: #d9d6d3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: auto;
+}
+
+
+/* Logo */
+.logo img {
+    position: flex;
+    top: 10px;
+    left: 10px;
+    width: 15%;
+    height: auto;
+  }
+
+  @media (max-width: 768px) {
+    .logo {
+        width: 80px;
+        left: 5px;
+        top: 5px;
+    }
+  }
+
+.logo{
+    position: left;
+    margin: -5%;
+    cursor: pointer;
+}
+
+/* nav menu styling*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: -20%;
+    margin: 4%;
+    z-index: 2; /* Ensure nav stays on top */
+    position: relative; /* Make sure it has context */
+  }
+  
+  /* Styling the list inside nav */
+  nav li {
+    list-style-type: none;
+    padding: 0; /* Fixed padding value */
+    margin: 0;
+    display: flex; /* Use flexbox to space items properly */
+    justify-content: space-around;
+    
+  }
+  
+  nav li {
+    margin-right: 5px;
+  }
+  
+  /* Link Styling */
+  nav li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  nav li a:hover {
+    border-radius: 20%;
+  }
+
+  .about span{
+    color: blue;
+    text-wrap: 10%;
+  }
+
+
+  /*service cards*/
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1d4031; /* Dark green background */
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners */
+  }
+  
+  .box {
+    width: 45%;
+    background-color: grey; /* Slightly lighter green */
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  .box-others {
+    width: 45%;
+    background-color: grey; /* Darker for the others section */
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid gray; /* Optional */
+  }
+  
+  .text-content {
+    color: black; /* White text */
+    font-family: Arial, sans-serif;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .check {
+    color: green; /* For checkmarks */
+  }
+  
+  .cross {
+    color: red; /* For crosses */
+  }
+  
