@@ -13,7 +13,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #423b3b;
-  padding: 40px 20px;
+  padding: 30px 30px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -25,7 +25,7 @@ body {
 .navbar a {
   text-decoration: none;
   color: whitesmoke;
-  margin: 0 15px;
+  margin: 0 40px;
   font-size: 16px;
 }
 
@@ -49,7 +49,7 @@ body {
 
 
 .banner h1 {
-  font-size: 24px;
+  font-size: 48px;
   font-weight: bold;
   margin: 15px 0;
 }
@@ -74,29 +74,32 @@ body {
 
 /* Button Container */
 .btn {
-text-align: center; /* Centers the button */
-margin: 20px 0; /* Adds spacing around the button */
+  text-align: center; /* Centers the group of buttons */
+  margin: 20px 0; /* Adds spacing around the buttons */
+  display: flex; /* Use flexbox to arrange buttons in a row */
+  justify-content: center; /* Centers buttons horizontally */
+  gap: 10px; /* Adds space between buttons */
 }
 
 /* Button Link */
 .btn a {
-display: inline-block; /* Makes the link behave like a button */
-padding: 12px 24px; /* Adds spacing inside the button */
-color: white; /* Button text color */
-background-color: #007bff; /* Button background color (blue) */
-border: 2px solid #007bff; /* Button border */
-border-radius: 5px; /* Slightly rounded corners */
-text-decoration: none; /* Removes underline from the link */
-font-size: 16px; /* Font size */
-font-weight: bold; /* Bold text */
-transition: all 0.3s ease; /* Smooth hover effect */
+  display: inline-block; /* Makes the link behave like a button */
+  padding: 12px 24px; /* Adds spacing inside the button */
+  color: white; /* Button text color */
+  background-color: #007bff; /* Button background color (blue) */
+  border: 2px solid #007bff; /* Button border */
+  border-radius: 5px; /* Slightly rounded corners */
+  text-decoration: none; /* Removes underline from the link */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Bold text */
+  transition: all 0.3s ease; /* Smooth hover effect */
 }
 
 /* Hover Effect */
 .btn a:hover {
-background-color: white; /* Change background to white */
-color: #007bff; /* Change text color to blue */
-border-color: #007bff; /* Keeps border blue */
+  background-color: white; /* Change background to white */
+  color: #007bff; /* Change text color to blue */
+  border-color: #007bff; /* Keeps border blue */
 }
 
 
@@ -114,5 +117,47 @@ border-color: #007bff; /* Keeps border blue */
 .nav-links.active {
   display: flex;
 }
+
+  /*service cards*/
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1d4031; /* Dark green background */
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners */
+  }
+  
+  .box {
+    width: 45%;
+    background-color: whitesmoke; /* Slightly lighter green */
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  .box-others {
+    width: 45%;
+    background-color: grey; /* Darker for the others section */
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid gray; /* Optional */
+  }
+  
+  .text-content {
+    color: black; /* White text */
+    font-family: Arial, sans-serif;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .check {
+    color: green; /* For checkmarks */
+  }
+  
+  .cross {
+    color: red; /* For crosses */
+  }
 
 }
