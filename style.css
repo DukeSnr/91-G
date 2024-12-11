@@ -34,13 +34,13 @@ body {
 }
 
 /* Banner Section */
-.banner {
+.home {
   text-align: center;
   padding: 60px 20px;
   background-color: #0a0a0a;
 }
 
-.banner img {
+.home img {
   border-radius: 50%; /* Keeps the image round */
   width: 200px; /* Adjust the width */
   height: 200px; /* Adjust the height */
@@ -48,13 +48,13 @@ body {
 }
 
 
-.banner h1 {
+.home h1 {
   font-size: 48px;
   font-weight: bold;
   margin: 15px 0;
 }
 
-.banner p {
+.home p {
   font-size: 16px;
   color: #555;
   margin: 5px 0;
@@ -73,7 +73,7 @@ body {
 }
 
 /* Button Container */
-.btn {
+.btn a {
   text-align: center; /* Centers the group of buttons */
   margin: 20px 0; /* Adds spacing around the buttons */
   display: flex; /* Use flexbox to arrange buttons in a row */
@@ -102,6 +102,36 @@ body {
   border-color: #007bff; /* Keeps border blue */
 }
 
+/* Button Container */
+.btn b {
+  text-align: center; /* Centers the group of buttons */
+  margin: 20px 0; /* Adds spacing around the buttons */
+  padding-left: 50px;
+  display: flex; /* Use flexbox to arrange buttons in a row */
+  justify-content: center; /* Centers buttons horizontally */
+  gap: 10px; /* Adds space between buttons */
+}
+
+/* Button Link */
+.btn b {
+  display: inline-block; /* Makes the link behave like a button */
+  padding: 12px 24px; /* Adds spacing inside the button */
+  color: white; /* Button text color */
+  background-color: #007bff; /* Button background color (blue) */
+  border: 2px solid #007bff; /* Button border */
+  border-radius: 5px; /* Slightly rounded corners */
+  text-decoration: none; /* Removes underline from the link */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Bold text */
+  transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect */
+.btn a:hover {
+  background-color: white; /* Change background to white */
+  color: #007bff; /* Change text color to blue */
+  border-color: #007bff; /* Keeps border blue */
+}
 
 
 /* Responsive Design */
