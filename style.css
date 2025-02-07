@@ -36,9 +36,8 @@ body {
 /* Banner Section */
 .home {
   text-align: center;
-  padding: 60px 20px;
+  padding: 140px 20px;
   background-color: #0a0a0a;
-}
 
 .home img {
   border-radius: 50%; /* Keeps the image round */
