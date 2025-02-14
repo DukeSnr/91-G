@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #423b3b;
-  color: whitesmoke;
+  color: #555;
 }
 
 /* Navbar */
@@ -35,15 +35,16 @@ body {
 
 /* Banner Section */
 .home {
-  text-align: center;
+  text-align: left;
   padding: 140px 20px;
-  background-color: #0a0a0a;
+  background-color: whitesmoke;
 
-.home img {
+.home-img {
   border-radius: 50%; /* Keeps the image round */
   width: 200px; /* Adjust the width */
   height: 200px; /* Adjust the height */
   margin-left: 20px; /* Keeps spacing consistent */
+  right: 100px; /* Aligns the image to the right */
 }
 
 
@@ -88,8 +89,8 @@ body {
   display: inline-block; /* Makes the link behave like a button */
   padding: 12px 24px; /* Adds spacing inside the button */
   color: white; /* Button text color */
-  background-color: #007bff; /* Button background color (blue) */
-  border: 2px solid #007bff; /* Button border */
+  background-color: orangered; /* Button background color (blue) */
+  border: 2px solid orangered; /* Button border */
   border-radius: 5px; /* Slightly rounded corners */
   text-decoration: none; /* Removes underline from the link */
   font-size: 16px; /* Font size */
